@@ -1,0 +1,11 @@
+C:\Users\maili\github\dealership\obj\Debug\netcoreapp2.2\deal.csprojAssemblyReference.cache
+C:\Users\maili\github\dealership\obj\Debug\netcoreapp2.2\deal.csproj.CoreCompileInputs.cache
+C:\Users\maili\github\dealership\obj\Debug\netcoreapp2.2\deal.AssemblyInfoInputs.cache
+C:\Users\maili\github\dealership\obj\Debug\netcoreapp2.2\deal.AssemblyInfo.cs
+C:\Users\maili\github\dealership\bin\Debug\netcoreapp2.2\deal.deps.json
+C:\Users\maili\github\dealership\bin\Debug\netcoreapp2.2\deal.runtimeconfig.json
+C:\Users\maili\github\dealership\bin\Debug\netcoreapp2.2\deal.runtimeconfig.dev.json
+C:\Users\maili\github\dealership\bin\Debug\netcoreapp2.2\deal.dll
+C:\Users\maili\github\dealership\bin\Debug\netcoreapp2.2\deal.pdb
+C:\Users\maili\github\dealership\obj\Debug\netcoreapp2.2\deal.dll
+C:\Users\maili\github\dealership\obj\Debug\netcoreapp2.2\deal.pdb
