@@ -1,24 +1,49 @@
 using System;
 using System.Collections.Generic;
 
+namespace DealerShip
+{
+
 public class Car
 {
-  public string MakeModel;
-  public int Price;
-  public int Miles;
-  public string Message;
+
+  private string _MakeModel;
+  private int _Price;
+  private int _Miles;
+  private string _Message;
+
 
   public Car(string makeModel, int price, int miles, string message)
   {
-    MakeModel = makeModel;
-    Price = price;
-    Miles = miles;
-    Message = message;
+    _MakeModel = makeModel;
+
+    _Price = price;
+
+    _Miles = miles;
+
+    _Message = message;
+
   }
 
+  public void SetMakeModel(string model)
+  {
+    _MakeModel = model;
+  }
+  public string GetMakeModel()
+  {
+    return _MakeModel;
+  }
+  public void SetMessage(string message)
+  {
+    _Message = message;
+  }
+  public string GetMessage()
+  {
+    return _Message;
+  }
   public bool WorthBuying(int maxPrice, int maxMilage)
   {
-    return (Price < maxPrice && Miles < maxMilage);
+    return (_Price < maxPrice && _Miles < maxMilage);
   }
 }
 public class Program
@@ -54,9 +79,10 @@ public class Program
 
     foreach(Car automobile in CarsMatchingSearch)
     {
-      Console.WriteLine(automobile.MakeModel + " " + automobile.Message);
+      Console.WriteLine(automobile.GetMakeModel() + " " + automobile.GetMessage());
      
     }
   }
 
+  }
 }

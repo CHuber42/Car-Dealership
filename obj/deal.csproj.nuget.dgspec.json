@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maili\\github\\dealership\\deal.csproj": {}
+    "c:\\Users\\maili\\github\\dealership\\deal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maili\\github\\dealership\\deal.csproj": {
+    "c:\\Users\\maili\\github\\dealership\\deal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maili\\github\\dealership\\deal.csproj",
+        "projectUniqueName": "c:\\Users\\maili\\github\\dealership\\deal.csproj",
         "projectName": "deal",
-        "projectPath": "C:\\Users\\maili\\github\\dealership\\deal.csproj",
+        "projectPath": "c:\\Users\\maili\\github\\dealership\\deal.csproj",
         "packagesPath": "C:\\Users\\maili\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maili\\github\\dealership\\obj\\",
+        "outputPath": "c:\\Users\\maili\\github\\dealership\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
