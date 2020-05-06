@@ -13,6 +13,12 @@ public class Car
   private string _Message;
 
 
+    public static string MakeSound()
+    {
+      string sound = "honk!";
+      return "the car is mad it said" + " " + sound;
+    }
+
   public Car(string makeModel, int price, int miles, string message)
   {
     _MakeModel = makeModel;
@@ -41,6 +47,7 @@ public class Car
   {
     return _Message;
   }
+
   public bool WorthBuying(int maxPrice, int maxMilage)
   {
     return (_Price < maxPrice && _Miles < maxMilage);
@@ -48,6 +55,7 @@ public class Car
 }
 public class Program
 {
+
   public static void Main()
   {
     Car volkswagen = new Car("1974 Volkswagen Thing", 1100, 368792,"this car is dope");
@@ -80,8 +88,9 @@ public class Program
     foreach(Car automobile in CarsMatchingSearch)
     {
       Console.WriteLine(automobile.GetMakeModel() + " " + automobile.GetMessage());
-     
+      Console.WriteLine(Car.MakeSound());
     }
+    Console.WriteLine("Actually, these are geese, not cars");
   }
 
   }
